@@ -1,1 +1,24 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="85" x="44" y="-408"></block>
+  <block type="movement_forward" id="65" x="97" y="-385"></block>
+  <block type="movement_forward" id="55" x="61" y="-357"></block>
+  <block type="movement_forward" id="75" x="188" y="-354"></block>
+  <block type="controls_repeat" id="7" inline="true" x="96" y="-318">
+    <value name="TIMES">
+      <block type="math_number" id="102">
+        <field name="NUM">150</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="17"></block>
+    </statement>
+  </block>
+  <block type="movement_right" id="95" x="29" y="-263"></block>
+  <block type="controls_repeat" id="24" inline="true" x="47" y="-188"></block>
+  <block type="controls_repeat" id="38" inline="true" x="7" y="-85"></block>
+  <block type="controls_repeat" id="31" inline="true" x="27" y="-65">
+    <statement name="DO">
+      <block type="controls_repeat" id="45" inline="true"></block>
+    </statement>
+  </block>
+</xml>
